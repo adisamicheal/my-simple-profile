@@ -1,0 +1,38 @@
+body{
+	background-color: #267184;
+}
+.container{
+	background-color: #ffffff;
+	width: 500px;
+	height: 650px;
+	text-align: center;
+	margin: auto;
+  	-moz-box-shadow:    3px 3px 5px 6px #000;
+  	-webkit-box-shadow: 3px 3px 5px 6px #000;
+  	box-shadow:         3px 3px 5px 6px #000;
+}
+h4 h6{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+.mypicture{
+	width: 215px;
+	height: 210px;
+	padding-top: 100px;
+}
+h4{
+	color: #FD0000;
+}
+h6{
+	line-height: 15px;
+}
+.media-icons{
+	list-style: none;
+	display: flex;
+	width: 350px;
+	height: 40px;
+	margin:auto;
+	justify-content: space-between;
+	padding-top: 40px;
+}
