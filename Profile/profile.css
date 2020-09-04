@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	background-color: #267184;
+	font-family: 'Roboto', sans-serif;
 }
 .container{
 	background-color: #ffffff;
 	width: 500px;
-	height: 650px;
+	height: 100vh;
 	text-align: center;
 	margin: auto;
   	-moz-box-shadow:    3px 3px 5px 6px #000;
@@ -23,9 +29,11 @@ h4 h6{
 }
 h4{
 	color: #FD0000;
+	font-size: 24px;
 }
 h6{
 	line-height: 15px;
+	font-size: 12px;
 }
 .media-icons{
 	list-style: none;
